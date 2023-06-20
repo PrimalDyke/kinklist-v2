@@ -24,14 +24,6 @@ const createKinkCategory = (name: string, subcategories: string[], kinks: string
 });
 
 export const getDefaultKinkContent = (defaultRating: string): InKinkCategory[] => [
-    createKinkCategory("Gender interaction", ["Male-presenting", "Female-presenting", "Androgynous"],
-["One on one", "Threesomes", "Orgies"], defaultRating),
-	createKinkCategory("Gender presentation", ["Self", "Partner"], 
-["Masc-presenting", "Femme-presenting", "Androgynous"], defaultRating),
-    createKinkCategory("Sexual contact", ["General"], 
-["Male genitalia", "Female genitalia"], defaultRating),
-    createKinkCategory("Bodies", ["Self", "Partner"], 
-["Skinny", "Chubby", "Tall", "Short", "Small breasts", "Large breasts", "Small cocks", "Large cocks", "Small butts", "Big butts",  "Bellies", "Thighs", "Body hair (armpits)", "Body hair (arms)", "Facial hair", "Body hair (genitalia)", "Body hair (legs)", "Body hair (torso)", "Hair (long)", "Hair(short)", "Hair(shaved)", "Hair(part shaved)", "Piercings (ears)", "Piercings (face)", "Piercings (mouth/tongue)", "Piercings (nipples)", "Piercings (genitalia)", "Tattoos (body)", "Tattoos (face)", "Scars"], defaultRating),
     createKinkCategory("Clothing", ["Self", "Partner"], 
 [ "Dresses", "Skirts", "Shirts", "Suits", "Boots", "Heels", "Panties", "Boy shorts", "Thongs", "Stockings", "Jockstraps", "No underwear", "Body harnesses", "Corsets", "Clothed sex", "Nudity", "Costumes", "Crossdressing", "Murrsuits", "Uniforms", "Wigs"], defaultRating),
     createKinkCategory("Materials", ["General"], 
